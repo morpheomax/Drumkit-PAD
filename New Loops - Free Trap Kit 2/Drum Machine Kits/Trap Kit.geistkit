@@ -1,0 +1,178 @@
+<root>
+    <Pad name="Pad0" version="2">
+        <Layer name="Layer0" version="3300" AmpEnvHold="0.242742583155632" AudioFileName="C:\Users\Antony\Desktop\Free Trap Kit 2\New Loops  - Free Trap Kit\One Shots\Kick Trap.wav" EnvTracksPitch="true" FreeEnvHold="0.242742583155632">
+            <AudioFileMarkers name="StartEndMarkers" version="2" EndSample="9187" SampleLength="9187" StartSample="0" />
+            <AudioFileMarkers name="LoopMarkers" version="2" EndSample="9187" SampleLength="9187" StartSample="0" />
+            <FixedString name="LayerName" string="Kick Trap" />
+        </Layer>
+        <FixedString name="PadName" string="P1 Kick Trap" />
+    </Pad>
+    <Pad name="Pad1" version="2">
+        <Layer name="Layer0" version="3300" AmpEnvHold="0.2041269242763519" AudioFileName="C:\Users\Antony\Desktop\Free Trap Kit 2\New Loops  - Free Trap Kit\One Shots\Clap Trap.wav" EnvTracksPitch="true" FreeEnvHold="0.2041269242763519">
+            <AudioFileMarkers name="StartEndMarkers" version="2" EndSample="4594" SampleLength="4594" StartSample="0" />
+            <AudioFileMarkers name="LoopMarkers" version="2" EndSample="4594" SampleLength="4594" StartSample="0" />
+            <FixedString name="LayerName" string="Clap Trap" />
+        </Layer>
+        <FixedString name="PadName" string="P2 Clap Trap" />
+    </Pad>
+    <Pad name="Pad2" version="2">
+        <Layer name="Layer0" version="3300" AmpEnvHold="0.2041269242763519" AudioFileName="C:\Users\Antony\Desktop\Free Trap Kit 2\New Loops  - Free Trap Kit\One Shots\Hi-Hat Trap.wav" EnvTracksPitch="true" FreeEnvHold="0.2041269242763519">
+            <AudioFileMarkers name="StartEndMarkers" version="2" EndSample="4594" SampleLength="4594" StartSample="0" />
+            <AudioFileMarkers name="LoopMarkers" version="2" EndSample="4594" SampleLength="4594" StartSample="0" />
+            <FixedString name="LayerName" string="Hi-Hat Trap" />
+        </Layer>
+        <FixedString name="PadName" string="P3 Hi-Hat Trap" />
+    </Pad>
+    <Pad name="Pad3" version="2">
+        <Layer name="Layer0" version="3300" AmpEnvHold="0.5773497819900513" AudioFileName="C:\Users\Antony\Desktop\Free Trap Kit 2\New Loops  - Free Trap Kit\One Shots\Ride 808 Long Reverb Soft.wav" EnvTracksPitch="true" FreeEnvHold="0.5773497819900513">
+            <AudioFileMarkers name="StartEndMarkers" version="2" EndSample="293999" SampleLength="293999" StartSample="0" />
+            <AudioFileMarkers name="LoopMarkers" version="2" EndSample="293999" SampleLength="293999" StartSample="0" />
+            <FixedString name="LayerName" string="Ride 808 Long Reverb Soft" />
+        </Layer>
+        <FixedString name="PadName" string="P4 Ride 808 Long Reverb Soft" />
+    </Pad>
+    <Pad name="Pad4" version="2">
+        <Layer name="Layer0" version="3300" AmpEnvHold="0.4316700100898743" AudioFileName="C:\Users\Antony\Desktop\Free Trap Kit 2\New Loops  - Free Trap Kit\One Shots\808 Kick Bass Trap C1.wav" EnvTracksPitch="true" FreeEnvHold="0.4316700100898743">
+            <AudioFileMarkers name="StartEndMarkers" version="2" EndSample="91875" SampleLength="91875" StartSample="0" />
+            <AudioFileMarkers name="LoopMarkers" version="2" EndSample="91875" SampleLength="91875" StartSample="0" />
+            <FixedString name="LayerName" string="808 Kick Bass Trap C1" />
+        </Layer>
+        <FixedString name="PadName" string="P5 808 Kick Bass Trap C1" />
+    </Pad>
+    <Pad name="Pad5" version="2">
+        <Layer name="Layer0" version="3300" AmpEnvHold="0.1751116961240768" AudioFileName="C:\Users\Antony\Desktop\Free Trap Kit 2\New Loops  - Free Trap Kit\One Shots\Snare Low-fi Trap.wav" EnvTracksPitch="true" FreeEnvHold="0.1751116961240768">
+            <AudioFileMarkers name="StartEndMarkers" version="2" EndSample="2488" SampleLength="2488" StartSample="0" />
+            <AudioFileMarkers name="LoopMarkers" version="2" EndSample="2488" SampleLength="2488" StartSample="0" />
+            <FixedString name="LayerName" string="Snare Low-fi Trap" />
+        </Layer>
+        <FixedString name="PadName" string="P6 Snare Low-fi Trap" />
+    </Pad>
+    <Pad name="Pad6" version="2">
+        <Layer name="Layer0" version="3300" AmpEnvHold="0.3799178600311279" AudioFileName="C:\Users\Antony\Desktop\Free Trap Kit 2\New Loops  - Free Trap Kit\One Shots\Snare Fill.wav" EnvTracksPitch="true" FreeEnvHold="0.3799178600311279">
+            <AudioFileMarkers name="StartEndMarkers" version="2" EndSample="55125" SampleLength="55125" StartSample="0" />
+            <AudioFileMarkers name="LoopMarkers" version="2" EndSample="55125" SampleLength="55125" StartSample="0" />
+            <FixedString name="LayerName" string="Snare Fill" />
+        </Layer>
+        <FixedString name="PadName" string="P7 Snare Fill" />
+    </Pad>
+    <Pad name="Pad7" version="2">
+        <Layer name="Layer0" version="3300" AmpEnvHold="0.5680844187736511" AudioFileName="C:\Users\Antony\Desktop\Free Trap Kit 2\New Loops  - Free Trap Kit\One Shots\FX Percussive Drop Echo.wav" EnvTracksPitch="true" FreeEnvHold="0.5680844187736511">
+            <AudioFileMarkers name="StartEndMarkers" version="2" EndSample="275576" SampleLength="275576" StartSample="0" />
+            <AudioFileMarkers name="LoopMarkers" version="2" EndSample="275576" SampleLength="275576" StartSample="0" />
+            <FixedString name="LayerName" string="FX Percussive Drop Echo" />
+        </Layer>
+        <FixedString name="PadName" string="P8 FX Percussive Drop Echo" />
+    </Pad>
+    <Pad name="Pad8" version="2">
+        <Layer name="Layer0" version="3300" AmpEnvHold="0.5773502588272095" AudioFileName="C:\Users\Antony\Desktop\Free Trap Kit 2\New Loops  - Free Trap Kit\One Shots\Synth Stab Drama C.wav" EnvTracksPitch="true" FreeEnvHold="0.5773502588272095">
+            <AudioFileMarkers name="StartEndMarkers" version="2" EndSample="294000" SampleLength="294000" StartSample="0" />
+            <AudioFileMarkers name="LoopMarkers" version="2" EndSample="294000" SampleLength="294000" StartSample="0" />
+            <FixedString name="LayerName" string="Synth Stab Drama C" />
+        </Layer>
+        <FixedString name="PadName" string="P9 Synth Stab Drama C" />
+    </Pad>
+    <Pad name="Pad9" version="2">
+        <Layer name="Layer0" version="3300" AmpEnvHold="0.6865890622138977" AudioFileName="C:\Users\Antony\Desktop\Free Trap Kit 2\New Loops  - Free Trap Kit\One Shots\FX Vinyl Noise Loop.wav" EnvTracksPitch="true" FreeEnvHold="0.6865890622138977" VoiceGain="0.5087004899978638">
+            <AudioFileMarkers name="StartEndMarkers" version="2" EndSample="588000" SampleLength="588000" StartSample="0" />
+            <AudioFileMarkers name="LoopMarkers" version="2" EndSample="588000" SampleLength="588000" StartSample="0" />
+            <FixedString name="LayerName" string="FX Vinyl Noise Loop" />
+        </Layer>
+        <FixedString name="PadName" string="P10 FX Vinyl Noise Loop" />
+    </Pad>
+    <Pad name="Pad10" version="2">
+        <Layer name="Layer0" version="3300" AmpEnvHold="0.6389431357383728" AudioFileName="C:\Users\Antony\Desktop\Free Trap Kit 2\New Loops  - Free Trap Kit\One Shots\Hand Drum Hit Echo.wav" EnvTracksPitch="true" FreeEnvHold="0.6389431357383728">
+            <AudioFileMarkers name="StartEndMarkers" version="2" EndSample="441000" SampleLength="441000" StartSample="0" />
+            <AudioFileMarkers name="LoopMarkers" version="2" EndSample="441000" SampleLength="441000" StartSample="0" />
+            <FixedString name="LayerName" string="Hand Drum Hit Echo" />
+        </Layer>
+        <FixedString name="PadName" string="P11 Hand Drum Hit Echo" />
+    </Pad>
+    <Pad name="Pad11" version="2">
+        <Layer name="Layer0" version="3300" AmpEnvHold="0.3717423379421234" AudioFileName="C:\Users\Antony\Desktop\Free Trap Kit 2\New Loops  - Free Trap Kit\One Shots\Hand Drum Roll.wav" EnvTracksPitch="true" FreeEnvHold="0.3717423379421234">
+            <AudioFileMarkers name="StartEndMarkers" version="2" EndSample="50531" SampleLength="50531" StartSample="0" />
+            <AudioFileMarkers name="LoopMarkers" version="2" EndSample="50531" SampleLength="50531" StartSample="0" />
+            <FixedString name="LayerName" string="Hand Drum Roll" />
+        </Layer>
+        <FixedString name="PadName" string="P12 Hand Drum Roll" />
+    </Pad>
+    <Pad name="Pad12" version="2">
+        <Layer name="Layer0" version="3300" AmpEnvHold="0.3875972330570221" AudioFileName="C:\Users\Antony\Desktop\Free Trap Kit 2\New Loops  - Free Trap Kit\One Shots\FX Start Up.wav" EnvTracksPitch="true" FreeEnvHold="0.3875972330570221">
+            <AudioFileMarkers name="StartEndMarkers" version="2" EndSample="59719" SampleLength="59719" StartSample="0" />
+            <AudioFileMarkers name="LoopMarkers" version="2" EndSample="59719" SampleLength="59719" StartSample="0" />
+            <FixedString name="LayerName" string="FX Start Up" />
+        </Layer>
+        <FixedString name="PadName" string="P13 FX Start Up" />
+    </Pad>
+    <Pad name="Pad13" version="2">
+        <Layer name="Layer0" version="3300" AmpEnvHold="0.3875972330570221" AudioFileName="C:\Users\Antony\Desktop\Free Trap Kit 2\New Loops  - Free Trap Kit\One Shots\FX Start Up Sweep.wav" EnvTracksPitch="true" FreeEnvHold="0.3875972330570221">
+            <AudioFileMarkers name="StartEndMarkers" version="2" EndSample="59719" SampleLength="59719" StartSample="0" />
+            <AudioFileMarkers name="LoopMarkers" version="2" EndSample="59719" SampleLength="59719" StartSample="0" />
+            <FixedString name="LayerName" string="FX Start Up Sweep" />
+        </Layer>
+        <FixedString name="PadName" string="P14 FX Start Up Sweep" />
+    </Pad>
+    <Pad name="Pad14" version="2">
+        <Layer name="Layer0" version="3300" AmpEnvHold="0.5257236957550049" AudioFileName="C:\Users\Antony\Desktop\Free Trap Kit 2\New Loops  - Free Trap Kit\One Shots\FX Reverse Cymbal Spring.wav" EnvTracksPitch="true" FreeEnvHold="0.5257236957550049">
+            <AudioFileMarkers name="StartEndMarkers" version="2" EndSample="202125" SampleLength="202125" StartSample="0" />
+            <AudioFileMarkers name="LoopMarkers" version="2" EndSample="202125" SampleLength="202125" StartSample="0" />
+            <FixedString name="LayerName" string="FX Reverse Cymbal Spring" />
+        </Layer>
+        <FixedString name="PadName" string="P15 FX Reverse Cymbal Spring" />
+    </Pad>
+    <Pad name="Pad15" version="2">
+        <Layer name="Layer0" version="3300" AmpEnvHold="0.4585238099098206" AudioFileName="C:\Users\Antony\Desktop\Free Trap Kit 2\New Loops  - Free Trap Kit\One Shots\Flutey Trap Synth 048 C2.wav" EnvTracksPitch="true" FreeEnvHold="0.4585238099098206">
+            <AudioFileMarkers name="StartEndMarkers" version="2" EndSample="116960" SampleLength="116960" StartSample="0" />
+            <AudioFileMarkers name="LoopMarkers" version="2" EndSample="116960" SampleLength="116960" StartSample="0" />
+            <FixedString name="LayerName" string="Flutey Trap Synth 048 C2" />
+        </Layer>
+        <FixedString name="PadName" string="P16 Flutey Trap Synth 048 C2" />
+    </Pad>
+    <Pad name="Pad16" version="2" />
+    <Pad name="Pad17" version="2" />
+    <Pad name="Pad18" version="2" />
+    <Pad name="Pad19" version="2" />
+    <Pad name="Pad20" version="2" />
+    <Pad name="Pad21" version="2" />
+    <Pad name="Pad22" version="2" />
+    <Pad name="Pad23" version="2" />
+    <Pad name="Pad24" version="2" />
+    <Pad name="Pad25" version="2" />
+    <Pad name="Pad26" version="2" />
+    <Pad name="Pad27" version="2" />
+    <Pad name="Pad28" version="2" />
+    <Pad name="Pad29" version="2" />
+    <Pad name="Pad30" version="2" />
+    <Pad name="Pad31" version="2" />
+    <Pad name="Pad32" version="2" />
+    <Pad name="Pad33" version="2" />
+    <Pad name="Pad34" version="2" />
+    <Pad name="Pad35" version="2" />
+    <Pad name="Pad36" version="2" />
+    <Pad name="Pad37" version="2" />
+    <Pad name="Pad38" version="2" />
+    <Pad name="Pad39" version="2" />
+    <Pad name="Pad40" version="2" />
+    <Pad name="Pad41" version="2" />
+    <Pad name="Pad42" version="2" />
+    <Pad name="Pad43" version="2" />
+    <Pad name="Pad44" version="2" />
+    <Pad name="Pad45" version="2" />
+    <Pad name="Pad46" version="2" />
+    <Pad name="Pad47" version="2" />
+    <Pad name="Pad48" version="2" />
+    <Pad name="Pad49" version="2" />
+    <Pad name="Pad50" version="2" />
+    <Pad name="Pad51" version="2" />
+    <Pad name="Pad52" version="2" />
+    <Pad name="Pad53" version="2" />
+    <Pad name="Pad54" version="2" />
+    <Pad name="Pad55" version="2" />
+    <Pad name="Pad56" version="2" />
+    <Pad name="Pad57" version="2" />
+    <Pad name="Pad58" version="2" />
+    <Pad name="Pad59" version="2" />
+    <Pad name="Pad60" version="2" />
+    <Pad name="Pad61" version="2" />
+    <Pad name="Pad62" version="2" />
+    <Pad name="Pad63" version="2" />
+</root>

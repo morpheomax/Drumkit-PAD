@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>DrumKit PAD</title>
+  </head>
+  <body>
+    <div class="container text-center p-5 text-light">
+      <h1>DrumKit</h1>
+    </div>
+
+    <div class="container d-flex justify-content-center">
+      <div class="row">
+        <div class="col-4">
+          <div class="key" data-key="65">
+            <kbd>A</kbd>
+            <span class="sound">Kick 808</span>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="key" data-key="83">
+            <kbd>S</kbd>
+            <span class="sound">Clap</span>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="key" data-key="68">
+            <kbd>D</kbd>
+            <span class="sound">FX</span>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="key" data-key="70">
+            <kbd>F</kbd>
+            <span class="sound">Hit-Hat</span>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="key" data-key="71">
+            <kbd>G</kbd>
+            <span class="sound">Kick</span>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="key" data-key="72">
+            <kbd>H</kbd>
+            <span class="sound">Ride</span>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="key" data-key="74">
+            <kbd>J</kbd>
+            <span class="sound">Fill Snare</span>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="key" data-key="75">
+            <kbd>K</kbd>
+            <span class="sound">Snare</span>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="key" data-key="76">
+            <kbd>L</kbd>
+            <span class="sound">FX</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <audio data-key="65" src="./sounds/808_Kick_Bass.wav"></audio>
+    <audio data-key="83" src="./sounds/Clap_Trap.wav"></audio>
+    <audio data-key="68" src="./sounds/FX_Start_Up.wav"></audio>
+    <audio data-key="70" src="./sounds/Hi-Hat_Trap.wav"></audio>
+    <audio data-key="71" src="./sounds/Kick_Trap.wav"></audio>
+    <audio data-key="72" src="./sounds/Ride_808_Long_Soft.wav"></audio>
+    <audio data-key="74" src="./sounds/Snare_Fill.wav"></audio>
+    <audio data-key="75" src="./sounds/Snare_Low-fi_Trap.wav"></audio>
+    <audio data-key="76" src="./sounds/Synth_Drama_062_D3.wav"></audio>
+
+    <script>
+      function removeTransition(e) {
+        if (e.propertyName !== "transform") return;
+        e.target.classList.remove("playing");
+      }
+
+      function playSound(key) {
+        const audio = document.querySelector(`audio[data-key="${key}"]`);
+        const keyElement = document.querySelector(`div[data-key="${key}"]`);
+        if (!audio) return;
+
+        keyElement.classList.add("playing");
+        audio.currentTime = 0;
+        audio.play();
+      }
+
+      function handleKeyClickOrPress(event) {
+        let key;
+        if (event.type === "click") {
+          key = this.getAttribute("data-key");
+        } else if (event.type === "keydown") {
+          key = event.keyCode.toString();
+        }
+
+        if (key) {
+          playSound(key);
+        }
+      }
+
+      const keys = Array.from(document.querySelectorAll(".key"));
+      keys.forEach((key) => {
+        key.addEventListener("transitionend", removeTransition);
+        key.addEventListener("click", handleKeyClickOrPress);
+        key.addEventListener("touchstart", handleKeyClickOrPress);
+      });
+
+      // Manejo de eventos de teclado para todo el documento
+      document.addEventListener("keydown", handleKeyClickOrPress);
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
